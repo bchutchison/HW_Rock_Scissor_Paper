@@ -12,24 +12,25 @@
       <li><a href="/">Home page</a></li>
       <li><a href="/instructions">Instructions</a></li>
     </ul>
+    </nav>
+<!--
+  <h3>Player 1 - select</h3>
+  <form action="/result" method="post">
+  <input type="text" name="rsp1" value="<%= @rsp1 %>">
+  <input type="submit">
+</form> -->
 
-    <h3>Player 1 - select</h3>
-    <ul>
-      <li><input type="radio" name="rsp1[]" value="">rock</li>
-      <li><input type="radio" name="rsp1[]" value="">scissors</li>
-      <li><input type="radio" name="rsp1[]" value="">paper</li>
-    </ul>
 
-    <h3>Player 2 - select</h3>
-    <ul>
-      <li><input type="radio" name="rsp2[]" value="">rock</li>
-      <li><input type="radio" name="rsp2[]" value="">scissors</li>
-      <li><input type="radio" name="rsp2[]" value="">paper</li>
-    </ul>
-  </nav>
+<form action="/result" method="post">
+  <h3>Player 1 - select</h3>
+  <input type="text" name="rsp1" value="<%= @rsp1 %>">
+  <input type="submit">
+  <h3>Player 2 - select</h3>
+  <input type="text" name="rsp2" value="<%= @rsp2 %>">
+  <input type="submit">
+</form>
 
-<input type="Submit">
-<%= params ['rsp1'] %>
+
 
 
 

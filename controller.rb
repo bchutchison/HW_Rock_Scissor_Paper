@@ -10,6 +10,7 @@ get '/check-win/:hand1/:hand2' do
   erb(:result)
 end
 
+
 get '/' do
   erb(:home)
 end
