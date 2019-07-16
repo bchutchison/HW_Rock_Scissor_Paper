@@ -1,0 +1,12 @@
+h1 {
+  color: blue;
+  border: 1px solid blue;
+  padding: 30px;
+}
+h2 {
+  color: green;
+}
+h4 {
+  color: purple;
+  font-family: verdana;
+}

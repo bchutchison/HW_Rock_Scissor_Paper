@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Rock Scissor Paper</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Welcome to Rock Scissors Paper!</h1>
+  <nav>
+    <ul>
+      <li><a href="/">Home page</a></li>
+      <li><a href="/instructions">Instructions</a></li>
+    </ul>
+
+    <h3>Player 1 - select</h3>
+    <ul>
+      <li><input type="radio" name="rsp1[]" value="">rock</li>
+      <li><input type="radio" name="rsp1[]" value="">scissors</li>
+      <li><input type="radio" name="rsp1[]" value="">paper</li>
+    </ul>
+
+    <h3>Player 2 - select</h3>
+    <ul>
+      <li><input type="radio" name="rsp2[]" value="">rock</li>
+      <li><input type="radio" name="rsp2[]" value="">scissors</li>
+      <li><input type="radio" name="rsp2[]" value="">paper</li>
+    </ul>
+  </nav>
+
+<input type="Submit">
+<%= params ['rsp1'] %>
+
+
+
+  <%= yield %>
+
+</body>
+</html>
